@@ -68,7 +68,7 @@ function draw() {
 
   function updata(state){
     database.ref('/').updata({
-      gameState:state; 
+      gameState:state
     })
   }
   currentTime=hour(); 
